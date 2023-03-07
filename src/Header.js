@@ -4,7 +4,7 @@ import {Link, useLocation } from "react-router-dom";
 
 function Header() {
     const location = useLocation();
-    if (location.pathname === '/') {
+    if (location.pathname === '/miraclehotel') {
         return (
             <div>
                 <header>          
@@ -12,9 +12,9 @@ function Header() {
                         <div className="container">
                             <h1 className="logo"><Link to="/">MIRACLE</Link></h1>
                                 <ul>
-                                    <li><Link className="current" to="/">Home</Link></li>
-                                    <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/contact">Contact</Link></li>
+                                    <li><Link className="current" to="/miraclehotel">Home</Link></li>
+                                    <li><Link to="miraclehotel/about">About</Link></li>
+                                    <li><Link to="miraclehotel/contact">Contact</Link></li>
                                 </ul> 
                         </div>
                     </nav>
