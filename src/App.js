@@ -11,9 +11,9 @@ function App() {
     <div className="App">
     <Header />
     <Routes>
-      <Route path="/miraclehotel" element={<Home />}></Route>
-      <Route path="miraclehotel/about" element={<About />}></Route>
-      <Route path="miraclehotel/contact" element={<Contact />}></Route>
+      <Route path="/Hotel-Website-with-ReactJS" element={<Home />}></Route>
+      <Route path="Hotel-Website-with-ReactJS/about" element={<About />}></Route>
+      <Route path="Hotel-Website-with-ReactJS/contact" element={<Contact />}></Route>
     </Routes>
     <Footer />      
     </div>
